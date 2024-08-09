@@ -1,16 +1,12 @@
 import {
-  Avatar,
   Box,
   Button,
   Divider,
   IconButton,
-  InputBase,
   Stack,
-  Badge,
   Typography,
 } from "@mui/material";
-import { faker } from "@faker-js/faker";
-import { styled, alpha, useTheme } from "@mui/material/styles";
+import { useTheme } from "@mui/material/styles";
 import { ArchiveBox, CircleDashed, MagnifyingGlass } from "phosphor-react";
 import React from "react";
 import { ChatList } from "../../data";
